@@ -19,7 +19,7 @@ $ npm i || npm install
 # serve with hot reload at localhost
 $ npm run dev
 
-# unit test
+# test react components with jest-enzyme
 $ npm run test
 
 # build for production
