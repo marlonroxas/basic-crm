@@ -1,0 +1,16 @@
+header {
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: var(--secondary-color);
+  color: #eee;
+  line-height: 70px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  .logo {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+  }
+}
