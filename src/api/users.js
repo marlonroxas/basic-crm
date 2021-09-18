@@ -3,7 +3,7 @@ import axios from "axios";
 const apiURL = process.env.REACT_APP_REQRES_API;
 
 function getUsers() {
-  const response = axios.get(`${apiURL}/users`);
+  const response = axios.get(`${apiURL}/users?per_page=10`);
 
   return response;
 }

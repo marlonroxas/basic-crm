@@ -26,6 +26,9 @@ $ npm run test
 $ npm run build
 ```
 
+## Assumptions
+* order_by parameter is not yet supported from API
+
 ## What will I do for the next sprint
 * Create reusable Form Components
 * Create reusable Main Layout

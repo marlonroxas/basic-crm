@@ -41,7 +41,7 @@ function App() {
   });
   const [activeModal, setActiveModal] = useState({ name: "", active: false });
   const [savedUsers, setSavedUsers] = useState(users);
-  const [pageSize] = useState(5);
+  const [pageSize] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
   const [sorted, setSorted] = useState(false);
 
