@@ -8,8 +8,8 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <a href="/" className="logo">
-          Basic CRM | 
-        </a> Customers
+          Basic CRM
+        </a>
       </div>
     </header>
   );
