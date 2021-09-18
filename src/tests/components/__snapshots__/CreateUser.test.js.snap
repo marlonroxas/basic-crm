@@ -105,19 +105,3 @@ exports[`Should render CreateUser correctly 1`] = `
   </div>
 </form>
 `;
-
-exports[`Should render Footer correctly 1`] = `
-<footer
-  className="footer"
->
-  <div
-    className="container"
-  >
-    <small
-      className="copyright"
-    >
-      Basic CRM by Marlon Roxas
-    </small>
-  </div>
-</footer>
-`;
