@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Search correctly 1`] = `
+<form
+  className="search-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <button
+      className="primary-btn"
+      type="submit"
+    >
+      Search
+    </button>
+  </div>
+</form>
+`;

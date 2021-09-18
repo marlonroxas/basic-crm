@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render DeleteUser correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    Are you sure you want to delete 
+    ?
+  </div>
+  <div
+    className="form-group form-group--actions"
+  >
+    <button
+      className="primary-btn"
+    >
+      Delete
+    </button>
+    <button
+      className="cancel-btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

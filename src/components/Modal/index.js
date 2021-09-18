@@ -9,7 +9,7 @@ const Modal = props => {
   return (
     <div className="modal">
       <div className="modal-content">
-        <div className="modal-content__title">{activeModal.name}</div>
+        <div className="modal-content__title">{activeModal && activeModal.name}</div>
         <div className="modal-content__body">{children}</div>
       </div>
     </div>

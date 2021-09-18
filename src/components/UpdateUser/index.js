@@ -30,7 +30,7 @@ const UpdateUser = props => {
         <input
           type="text"
           name="first_name"
-          value={user.first_name}
+          value={user && user.first_name}
           onChange={onInputChange}
           required
         />
@@ -40,7 +40,7 @@ const UpdateUser = props => {
         <input
           type="text"
           name="last_name"
-          value={user.last_name}
+          value={user && user.last_name}
           onChange={onInputChange}
           required
         />
@@ -50,7 +50,7 @@ const UpdateUser = props => {
         <input
           type="date"
           name="birthdate"
-          value={user.birthdate}
+          value={user && user.birthdate}
           onChange={onInputChange}
           required
         />
@@ -60,7 +60,7 @@ const UpdateUser = props => {
         <input
           type="email"
           name="email"
-          value={user.email}
+          value={user && user.email}
           onChange={onInputChange}
           required
         />
@@ -70,7 +70,7 @@ const UpdateUser = props => {
         <input
           type="text"
           name="phone"
-          value={user.phone}
+          value={user && user.phone}
           onChange={onInputChange}
           required
         />
@@ -80,7 +80,7 @@ const UpdateUser = props => {
         <input
           type="text"
           name="address"
-          value={user.address}
+          value={user && user.address}
           onChange={onInputChange}
           required
         />

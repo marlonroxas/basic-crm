@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Modal correctly 1`] = `
+<div
+  className="modal"
+>
+  <div
+    className="modal-content"
+  >
+    <div
+      className="modal-content__title"
+    />
+    <div
+      className="modal-content__body"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ViewUser correctly 1`] = `
+<Fragment>
+  <div
+    className="form-group"
+  >
+    <label>
+      First Name
+    </label>
+    <input
+      name="first_name"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Last Name
+    </label>
+    <input
+      name="last_name"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Date of Birth
+    </label>
+    <input
+      name="birthdate"
+      onChange={[Function]}
+      required={true}
+      type="date"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Email
+    </label>
+    <input
+      name="email"
+      onChange={[Function]}
+      required={true}
+      type="email"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Phone
+    </label>
+    <input
+      name="phone"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Address
+    </label>
+    <input
+      name="address"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group form-group--actions"
+  >
+    <button
+      className="cancel-btn"
+      onClick={[Function]}
+    >
+      Close
+    </button>
+  </div>
+</Fragment>
+`;

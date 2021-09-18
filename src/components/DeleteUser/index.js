@@ -20,7 +20,7 @@ const DeleteUser = props => {
       }}
     >
       <div className="form-group">
-        Are you sure you want to delete {user.first_name} {user.last_name}?
+        Are you sure you want to delete {user && (user.first_name + ' ' + user.last_name)}?
       </div>
       <div className="form-group form-group--actions">
         <button className="primary-btn">Delete</button>

@@ -31,4 +31,3 @@ $ npm build
 * Create reusable Main Layout
 * Create reusable Menu Bar Layout
 * Create reusable Content Layout
-* Create unit test - footer components
