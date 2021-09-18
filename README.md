@@ -23,7 +23,7 @@ $ npm run dev
 $ npm run test
 
 # build for production
-$ npm build
+$ npm run build
 ```
 
 ## What will I do for the next sprint
