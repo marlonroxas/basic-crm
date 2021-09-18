@@ -31,3 +31,8 @@ $ npm run build
 * Create reusable Main Layout
 * Create reusable Menu Bar Layout
 * Create reusable Content Layout
+<<<<<<< HEAD
+=======
+* Create User Permissions
+* Create User Profile
+>>>>>>> develop
