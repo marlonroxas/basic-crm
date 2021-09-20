@@ -63,7 +63,7 @@ const DataTable = props => {
         </thead>
         <tbody>
           {props.users && props.users.length ? (
-            props.users.sort((a, b) => a.last_name !== b.last_name ? a.last_name < b.last_name ? -1 : 1 : 0).map(user => (
+            props.users.map(user => (
               <tr key={user.id}>
                 <td>{(`${user.first_name}${user.last_name}${user.birthdate ? moment(user.birthdate).format('yyyyMMDD') : ''}`).replace(/ /g, '').toLocaleLowerCase()}</td>
                 <td>{user.first_name}</td>
