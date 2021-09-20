@@ -27,7 +27,7 @@ $ npm run build
 ```
 
 ## Assumptions
-* order_by parameter is not yet supported from API
+* dynamic sorting (e.g order_by=last_name parameter) is not yet supported from API
 
 ## What will I do for the next sprint
 * Create reusable Form Components
